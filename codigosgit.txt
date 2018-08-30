@@ -1,0 +1,14 @@
+git remote add origin https://github.com/dioujhow/modulogit.git  				adicionar repositorio remoto 
+git remote 											ver em qual remote ta adicionado
+git remote -v  										ver detalhadamente 
+git push -u origin master							enviar o repositorio local para o repositorio remoto
+git log												ver todos os commits 
+git diff											ver o que foi alterado ou modificado de todos arquivos
+git diff -- "nome do arquivo"  						ver o que foi alterado ou modificado no arquivo
+git status											ver os arquivos que foram alterados ou adicionados
+git reset --solf/hard  " colocar o codigo do commit"						voltar a um commit anterior
+ git add -A  										adicionar todos arquivos que foram modificados ou adicionados
+git commit -am "comentar o que foi feito"
+git branch
+git branch "nome do branch que quer criar"
+git checkout           muda de branch
